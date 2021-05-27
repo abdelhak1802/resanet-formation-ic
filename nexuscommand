@@ -1,0 +1,6 @@
+sudo docker run -d -p 8081:8081 -p 5000:5000 --name nexus sonatype/nexus3:latest
+
+nexus nexus-local http://192.168.3.88:8081/repository/maven-public/ true true nexus-local http://MON-
+IP:8081/repository/maven-public/ true true
+
+192.168.3.88

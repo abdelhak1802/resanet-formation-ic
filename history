@@ -1,0 +1,562 @@
+69  node --version
+   70  npm install -g npm
+   71  clear
+   72  java --version
+   73  docker --version
+   74  pwd
+   75  ls elasticsearch/
+   76  ls
+   77  ls
+   78  ls workspace/
+   79  mdkir elastic
+   80  mdir elasstic
+   81  mkdir elastic
+   82  cd elastic/
+   83  unzip /home/zenika/Bureau/linux/elasticsearch/elasticsearch-5.3.2.tar.gz
+   84  tar zxvf /home/zenika/Bureau/linux/elasticsearch/elasticsearch-5.3.2.tar.gz
+   85  tar zxvf /home/zenika/Bureau/linux/elasticsearch/cerebro-0.6.5.tgz
+   86  tar zxvf /home/zenika/Bureau/linux/elasticsearch/kibana-5.3.2-linux-x86_64.tar.gz
+   87  tar zxvf /home/zenika/Bureau/linux/jdk-8u131-linux-x64.tar.gz
+   88  export JAVA_HOME=`pwd`\jdk1.8.0_131
+   89  cd elasticsearch-5.3.2/
+   90  ls
+   91  cd config/
+   92  ls
+   93  vi elasticsearch.yml
+   94  cd ..
+   95  ./bin/elasticsearch &
+   96  free
+   97  free -h
+   98  kill 3880
+   99  vi config/jvm.options
+  100  ./bin/elasticsearch
+  101  cd elastic/
+  102  ls
+  103  mkdir el2
+  104  cd el2
+  105  tar zxvf ~/Bureau/linux/elasticsearch/elasticsearch-5.3.2.tar.gz
+  106  cd elasticsearch-5.3.2/
+  107  vi config/elasticsearch.yml
+  108  export JAVA_HOME=`pwd`\jdk1.8.0_131
+  109  ./bin/elasticsearch
+  110  vi config/elasticsearch.yml
+  111  vi config/jvm.options
+  112  vi ../../elasticsearch-5.3.2/config/jvm.options
+  113  vi config/jvm.options
+  114  ./bin/elasticsearch
+  115  cd ..
+  116  ls
+  117  export JAVA_HOME=`pwd`\jdk1.8.0_131
+  118  cd kibana-5.3.2-linux-x86_64/
+  119  ./bin/kibana
+  120  cd elastic/
+  121  ls
+  122  export JAVA_HOME=`pwd`\jdk1.8.0_131
+  123  ./cerebro-0.6.5/bin/cerebro
+  124  mvn --version
+  125  java -version
+  126  mkdir -r formation/tools
+  127  mkdir -f formation/tools
+  128  mkdir -d formation/tools
+  129  mkdir formation/tools
+  130  mkdir formation
+  131  mkdir formation/tools
+  132  cd formation/tools
+  133  ls
+  134  ls -ltr
+  135  vi ~/.bashrc
+  136  source ~/.profile
+  137  mvn --version
+  138  git
+  139  cls
+  140  clear
+  141  sudo docker ps -a
+  142  history
+  143  clear
+  144  cd ..
+  145  cd resanet/
+  146  ls
+  147  ls -ltr
+  148  cd resanet-model/
+  149  ls
+  150  cd ..
+  151  ls -ltr
+  152  vim pom.xml
+  153  vi pom.xml
+  154  mvn package
+  155  mvn jetty:run
+  156  git init
+  157  git add -a
+  158  git add -A
+  159  cd ..
+  160  cd resanet/
+  161  ls -ltr
+  162  ls -altr
+  163  git commit -m ":tada: init repository"
+  164  git config --global user.email "abdelhak.rabhi@gmail.com"
+  165  git config --global user.name "abdelhak1802"
+  166  git commit -m ":tada: init repository"
+  167  git remote add origin [[https://github.com/abdelhak1802/resanet-formation-ic]]
+  168  git push
+  169  git remote add origin https://github.com/abdelhak1802/resanet-formation-ic
+  170  git remote remove origin
+  171  git remote add origin https://github.com/abdelhak1802/resanet-formation-ic
+  172  git push
+  173  git push --set-upstream origin master
+  174  git status
+  175  git pull
+  176  chmod +x '/home/zenika/formation/resanet/MY-CI/private.sh'
+  177  ./home/zenika/formation/resanet/MY-CI/private.sh
+  178  pwd
+  179  cd ..
+  180  ll
+  181  cd my-ci/
+  182  chmod +x private.sh
+  183  ./private.sh
+  184  cd ..
+  185  mkdir JENKINS_HOME
+  186  ls
+  187  cd JENKINS_HOME/
+  188  cd ..
+  189  ls
+  190  cd my-ci/
+  191  mkfir deploy
+  192  mkdir deploy
+  193  cd ..
+  194  cd JENKINS_HOME/
+  195  ls
+  196  clear
+  197  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  198  sudo docker ps
+  199  sudo docker start jenkins
+  200  sudo docker logs jenkins
+  201  sudo docker logs --tail jenkins
+  202  sudo docker logs -tail jenkins
+  203  sudo docker logs -f jenkins
+  204  sudo docker stop jenkins
+  205  sudo docker rm jenkins
+  206  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  207  history
+  208  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  209  sudo docker logs -f jenkins
+  210  sudo docker logs -tail jenkins
+  211  sudo docker logs --tail jenkins
+  212  sudo docker logs -f jenkins
+  213  mvn jetty:run
+  214  ./private.sh
+  215  cd ..
+  216  ls
+  217  cd my-ci/
+  218  ls
+  219  ./private.sh
+  220  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  221  sudo docker logs -f jenkins
+  222  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  223  sudo docker stop jenkins
+  224  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  225  sudo docker stop jenkins
+  226*
+  227  sudo docker start jenkins
+  228  sudo docker ps
+  229  sudo docker kill 0968d2b6864c
+  230  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  231  sudo docker ps kill 0968d2b6864c
+  232  sudo docker ps  0968d2b6864c ps
+  233  sudo docker kill 0968d2b6864c
+  234  sudo docker ps
+  235  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  236  sudo docker start jenkins
+  237  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  238  sudo docker run -d -p 8081:8081 -p 5000:5000 --name nexus sonatype/nexus3:latest
+  239  docker run --name artifactory -d -p 8082:8082 docker.bintray.io/jfrog/artifactory-pro:latest
+  240  sudo docker run --name artifactory -d -p 8082:8082 docker.bintray.io/jfrog/artifactory-pro:latest
+  241  cd ..
+  242  ls
+  243  cd resanet/
+  244  ls
+  245  mvn deploy
+  246  mvn install
+  247  sudo docker run --name artifactory -d -p 8082:8082 docker.bintray.io/jfrog/artifactory-pro:latest
+  248  mvn deploy
+  249  sudo docker ps
+  250  sudo docker stop & rm artifactory
+  251  sudo docker stop --rm artifactory
+  252  sudo docker stop -rm artifactory
+  253  sudo docker stop artifactory
+  254  sudo docker rm artifactory
+  255  sudo docker run --name artifactory -d -p 8082:8081 docker.bintray.io/jfrog/artifactory-pro:latest
+  256  mvn test
+  257  git add -A
+  258  git commit -m "toto"
+  259  git push
+  260  git commit -m "toto2"
+  261  git commit -m "toto"
+  262  git push
+  263  git status
+  264  git add -A
+  265  git commit -m "toto2"
+  266  git status
+  267  git push
+  268  mvn install
+  269  mvn deploy
+  270  cd ..
+  271  git add -A
+  272  git push
+  273  cd resanet/
+  274  ls
+  275  git add -A
+  276  git push
+  277  git commit -m "toto3"
+  278  git push
+  279  git add -A
+  280  git commit -m "toto4"
+  281  git push
+  282  hisotry
+  283  history
+  284  git add -A
+  285  git commit -m "toto5"
+  286  git push
+  287  history
+zenika@zenika-Precision-M2800 ~/formation/resanet $ clear
+
+zenika@zenika-Precision-M2800 ~/formation/resanet $ history
+    1  grub-install -V
+    2  sudo grub-install -V
+    3  sudo nano /etc/default/grub
+    4  sudo update-grub
+    5  sudo nano /etc/default/grub
+    6  sudo update-grub
+    7  sudo apt-get update
+    8  sudo add-apt-repository ppa:webupd8team/java
+    9  sudp apt update
+   10  sudo apt update
+   11  sudo apt-get install oracle-java8-installer
+   12  java -version
+   13  clear
+   14  sudo apt-get install node
+   15  sudo apt-get install nodejs
+   16  sudo apt-get remove node --purge
+   17  sudo apt-get install nodejs
+   18  sudo apt-get remove nodejs --purge
+   19  sudo apt-get install nodejs
+   20  node
+   21  sudo apt-get install node
+   22  node
+   23  node -version
+   24  sudo apt-get remove nodejs --purge
+   25  node
+   26  sudo apt-get remove node --purge
+   27  node
+   28  sudo apt-get install node-legacy
+   29  sudo apt-get install nodejs-legacy
+   30  node
+   31  clear
+   32  sudo apt-get install npm
+   33  sudo npm install -g grunt
+   34  sudo npm install -g gulp
+   35  sudo npm install -g bower
+   36  sudo apt-get install atom
+   37  sudo apt-get install docker
+   38  docker
+   39  sudo apt-get install docker
+   40  docker
+   41  sudo apt-get install docker
+   42  clear
+   43  which curl
+   44  sudo apt-get install fortune
+   45  sudo apt-get update
+   46  sudo apt-get install curl
+   47  sudo apt-get upgrade
+   48  $ curl -fsSL https://get.docker.com/ | sh
+   49  curl -fsSL https://get.docker.com/ | sh
+   50  sudo curl -fsSL https://get.docker.com/ | sh
+   51  docker
+   52  sudo apt update
+   53  sudo apt upgrade
+   54  node -version
+   55  node --version
+   56  sudo nemo
+   57  node --version
+   58  sudo apt remove nodejs-legacy
+   59  sudo apt remove nodejs-dev
+   60  node --version
+   61  npm --version
+   62  sudo apt remove nodejs-dev
+   63  sudo apt remove nodejs
+   64  node --version
+   65  npm --version
+   66  node --version
+   67  java --version
+   68  java -version
+   69  node --version
+   70  npm install -g npm
+   71  clear
+   72  java --version
+   73  docker --version
+   74  pwd
+   75  ls elasticsearch/
+   76  ls
+   77  ls
+   78  ls workspace/
+   79  mdkir elastic
+   80  mdir elasstic
+   81  mkdir elastic
+   82  cd elastic/
+   83  unzip /home/zenika/Bureau/linux/elasticsearch/elasticsearch-5.3.2.tar.gz
+   84  tar zxvf /home/zenika/Bureau/linux/elasticsearch/elasticsearch-5.3.2.tar.gz
+   85  tar zxvf /home/zenika/Bureau/linux/elasticsearch/cerebro-0.6.5.tgz
+   86  tar zxvf /home/zenika/Bureau/linux/elasticsearch/kibana-5.3.2-linux-x86_64.tar.gz
+   87  tar zxvf /home/zenika/Bureau/linux/jdk-8u131-linux-x64.tar.gz
+   88  export JAVA_HOME=`pwd`\jdk1.8.0_131
+   89  cd elasticsearch-5.3.2/
+   90  ls
+   91  cd config/
+   92  ls
+   93  vi elasticsearch.yml
+   94  cd ..
+   95  ./bin/elasticsearch &
+   96  free
+   97  free -h
+   98  kill 3880
+   99  vi config/jvm.options
+  100  ./bin/elasticsearch
+  101  cd elastic/
+  102  ls
+  103  mkdir el2
+  104  cd el2
+  105  tar zxvf ~/Bureau/linux/elasticsearch/elasticsearch-5.3.2.tar.gz
+  106  cd elasticsearch-5.3.2/
+  107  vi config/elasticsearch.yml
+  108  export JAVA_HOME=`pwd`\jdk1.8.0_131
+  109  ./bin/elasticsearch
+  110  vi config/elasticsearch.yml
+  111  vi config/jvm.options
+  112  vi ../../elasticsearch-5.3.2/config/jvm.options
+  113  vi config/jvm.options
+  114  ./bin/elasticsearch
+  115  cd ..
+  116  ls
+  117  export JAVA_HOME=`pwd`\jdk1.8.0_131
+  118  cd kibana-5.3.2-linux-x86_64/
+  119  ./bin/kibana
+  120  cd elastic/
+  121  ls
+  122  export JAVA_HOME=`pwd`\jdk1.8.0_131
+  123  ./cerebro-0.6.5/bin/cerebro
+  124  mvn --version
+  125  java -version
+  126  mkdir -r formation/tools
+  127  mkdir -f formation/tools
+  128  mkdir -d formation/tools
+  129  mkdir formation/tools
+  130  mkdir formation
+  131  mkdir formation/tools
+  132  cd formation/tools
+  133  ls
+  134  ls -ltr
+  135  vi ~/.bashrc
+  136  source ~/.profile
+  137  mvn --version
+  138  git
+  139  cls
+  140  clear
+  141  sudo docker ps -a
+  142  history
+  143  clear
+  144  cd ..
+  145  cd resanet/
+  146  ls
+  147  ls -ltr
+  148  cd resanet-model/
+  149  ls
+  150  cd ..
+  151  ls -ltr
+  152  vim pom.xml
+  153  vi pom.xml
+  154  mvn package
+  155  mvn jetty:run
+  156  git init
+  157  git add -a
+  158  git add -A
+  159  cd ..
+  160  cd resanet/
+  161  ls -ltr
+  162  ls -altr
+  163  git commit -m ":tada: init repository"
+  164  git config --global user.email "abdelhak.rabhi@gmail.com"
+  165  git config --global user.name "abdelhak1802"
+  166  git commit -m ":tada: init repository"
+  167  git remote add origin [[https://github.com/abdelhak1802/resanet-formation-ic]]
+  168  git push
+  169  git remote add origin https://github.com/abdelhak1802/resanet-formation-ic
+  170  git remote remove origin
+  171  git remote add origin https://github.com/abdelhak1802/resanet-formation-ic
+  172  git push
+  173  git push --set-upstream origin master
+  174  git status
+  175  git pull
+  176  chmod +x '/home/zenika/formation/resanet/MY-CI/private.sh'
+  177  ./home/zenika/formation/resanet/MY-CI/private.sh
+  178  pwd
+  179  cd ..
+  180  ll
+  181  cd my-ci/
+  182  chmod +x private.sh
+  183  ./private.sh
+  184  cd ..
+  185  mkdir JENKINS_HOME
+  186  ls
+  187  cd JENKINS_HOME/
+  188  cd ..
+  189  ls
+  190  cd my-ci/
+  191  mkfir deploy
+  192  mkdir deploy
+  193  cd ..
+  194  cd JENKINS_HOME/
+  195  ls
+  196  clear
+  197  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  198  sudo docker ps
+  199  sudo docker start jenkins
+  200  sudo docker logs jenkins
+  201  sudo docker logs --tail jenkins
+  202  sudo docker logs -tail jenkins
+  203  sudo docker logs -f jenkins
+  204  sudo docker stop jenkins
+  205  sudo docker rm jenkins
+  206  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  207  history
+  208  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  209  sudo docker logs -f jenkins
+  210  sudo docker logs -tail jenkins
+  211  sudo docker logs --tail jenkins
+  212  sudo docker logs -f jenkins
+  213  mvn jetty:run
+  214  ./private.sh
+  215  cd ..
+  216  ls
+  217  cd my-ci/
+  218  ls
+  219  ./private.sh
+  220  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  221  sudo docker logs -f jenkins
+  222  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  223  sudo docker stop jenkins
+  224  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  225  sudo docker stop jenkins
+  226*
+  227  sudo docker start jenkins
+  228  sudo docker ps
+  229  sudo docker kill 0968d2b6864c
+  230  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  231  sudo docker ps kill 0968d2b6864c
+  232  sudo docker ps  0968d2b6864c ps
+  233  sudo docker kill 0968d2b6864c
+  234  sudo docker ps
+  235  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  236  sudo docker start jenkins
+  237  sudo docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /home/zenika/formation/JENKINS_HOME:/var/jenkins_home -v /home/zenika/formation/my-ci/deploy/distribution:/distribution jenkins/jenkins
+  238  sudo docker run -d -p 8081:8081 -p 5000:5000 --name nexus sonatype/nexus3:latest
+  239  docker run --name artifactory -d -p 8082:8082 docker.bintray.io/jfrog/artifactory-pro:latest
+  240  sudo docker run --name artifactory -d -p 8082:8082 docker.bintray.io/jfrog/artifactory-pro:latest
+  241  cd ..
+  242  ls
+  243  cd resanet/
+  244  ls
+  245  mvn deploy
+  246  mvn install
+  247  sudo docker run --name artifactory -d -p 8082:8082 docker.bintray.io/jfrog/artifactory-pro:latest
+  248  mvn deploy
+  249  sudo docker ps
+  250  sudo docker stop & rm artifactory
+  251  sudo docker stop --rm artifactory
+  252  sudo docker stop -rm artifactory
+  253  sudo docker stop artifactory
+  254  sudo docker rm artifactory
+  255  sudo docker run --name artifactory -d -p 8082:8081 docker.bintray.io/jfrog/artifactory-pro:latest
+  256  mvn test
+  257  git add -A
+  258  git commit -m "toto"
+  259  git push
+  260  git commit -m "toto2"
+  261  git commit -m "toto"
+  262  git push
+  263  git status
+  264  git add -A
+  265  git commit -m "toto2"
+  266  git status
+  267  git push
+  268  mvn install
+  269  mvn deploy
+  270  cd ..
+  271  git add -A
+  272  git push
+  273  cd resanet/
+  274  ls
+  275  git add -A
+  276  git push
+  277  git commit -m "toto3"
+  278  git push
+  279  git add -A
+  280  git commit -m "toto4"
+  281  git push
+  282  hisotry
+  283  history
+  284  git add -A
+  285  git commit -m "toto5"
+  286  git push
+  287  history
+  288  clear
+  289  history
+
+
+---------------------------------------------------------------------------------------------------------
+
+Solutions
+
+Pour settings.xml maven
+
+    <profile>
+      <id>nexus</id>
+      <repositories>
+        <repository>
+          <id>nexus-local</id>
+          <url>http://192.168.3.64:8081/repository/maven-public/</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>nexus-local</id>
+          <url>http://192.168.3.64:8081/repository/maven-public/</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+
+Distribution
+
+	<distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>corp1</id>
+      <name>test Repository</name>
+      <url>http://10.106.86.197:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>propSnap</id>
+      <name>test Snapshots</name>
+      <url>http://10.106.86.197:8081/repository/maven-snapshots/</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+	</distributionManagement>
+Conf pour plugin sonar de jenkins
+
+  sonar.projectKey=com.zenika.formation:resanet-parent
+  sonar.sources=resanet-model/src,resanet-web/src
+  sonar.java.binaries=**/target/classes
+Formations zenika / E. Lecomte
